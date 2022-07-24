@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a9d51eb-85d2-4fea-8c31-5adfd4b1627f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cofee/Semicolon/CoffeeApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cofee/Semicolon/Controller/RestApiDemoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cofee/Semicolon/Data/Model/Coffee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cofee/Semicolon/Data/Repository/CoffeeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +37,12 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/admin/Desktop/demo",
     "spring.configuration.checksum": "e1740f829e4dbcbe739989c6582db057"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+    ]
   }
 }]]></component>
   <component name="RunManager">
@@ -79,11 +74,23 @@
       <option name="presentableId" value="Default" />
       <updated>1657477031884</updated>
       <workItem from="1657477036115" duration="4827000" />
-      <workItem from="1657482690960" duration="2167000" />
+      <workItem from="1657482690960" duration="4006000" />
     </task>
+    <task id="LOCAL-00001" summary="Let’s begin by creating the Coffee class. we need a resource of some kind to demonstrate how to manage&#10;resources via a REST API">
+      <created>1657485193951</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657485193951</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Let’s begin by creating the Coffee class. we need a resource of some kind to demonstrate how to manage&#10;resources via a REST API" />
+    <option name="LAST_COMMIT_MESSAGE" value="Let’s begin by creating the Coffee class. we need a resource of some kind to demonstrate how to manage&#10;resources via a REST API" />
   </component>
 </project>
