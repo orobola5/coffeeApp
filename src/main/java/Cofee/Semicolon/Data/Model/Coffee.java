@@ -1,28 +1,29 @@
 package Cofee.Semicolon.Data.Model;
 
-import lombok.AllArgsConstructor;
+
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.springframework.data.annotation.Id;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 import java.util.UUID;
 
-@Data
-@AllArgsConstructor
-@NoArgsConstructor
 @Entity
+@NoArgsConstructor
+@Data
 public class Coffee {
     @Id
-    private String id;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Integer id;
     private String name;
-    public Coffee(String name) {
-        this(UUID.randomUUID().toString(), name);
-        }
+    private String flavor;
 
-        @javax.persistence.Id
-        public String getId() {
-
-        return id;
-        }
+    public Coffee(String name, String flavor) {
+        this.name = name;
+        this.flavor= flavor;
     }
+
+}
